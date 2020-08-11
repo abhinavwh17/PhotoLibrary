@@ -1,0 +1,16 @@
+C:\Users\ACER\source\repos\NetheusLibrary\NetheusLibrary\NetheusLibrary\bin\Debug\netstandard2.0\NetheusLibrary.deps.json
+C:\Users\ACER\source\repos\NetheusLibrary\NetheusLibrary\NetheusLibrary\bin\Debug\netstandard2.0\NetheusLibrary.dll
+C:\Users\ACER\source\repos\NetheusLibrary\NetheusLibrary\NetheusLibrary\bin\Debug\netstandard2.0\ref\NetheusLibrary.dll
+C:\Users\ACER\source\repos\NetheusLibrary\NetheusLibrary\NetheusLibrary\bin\Debug\netstandard2.0\NetheusLibrary.pdb
+C:\Users\ACER\source\repos\NetheusLibrary\NetheusLibrary\NetheusLibrary\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ACER\source\repos\NetheusLibrary\NetheusLibrary\NetheusLibrary\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ACER\source\repos\NetheusLibrary\NetheusLibrary\NetheusLibrary\obj\Debug\netstandard2.0\Views\ImagePopup.xaml.g.cs
+C:\Users\ACER\source\repos\NetheusLibrary\NetheusLibrary\NetheusLibrary\obj\Debug\netstandard2.0\Views\LibraryView.xaml.g.cs
+C:\Users\ACER\source\repos\NetheusLibrary\NetheusLibrary\NetheusLibrary\obj\Debug\netstandard2.0\NetheusLibrary.AssemblyInfoInputs.cache
+C:\Users\ACER\source\repos\NetheusLibrary\NetheusLibrary\NetheusLibrary\obj\Debug\netstandard2.0\NetheusLibrary.AssemblyInfo.cs
+C:\Users\ACER\source\repos\NetheusLibrary\NetheusLibrary\NetheusLibrary\obj\Debug\netstandard2.0\NetheusLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\NetheusLibrary\NetheusLibrary\NetheusLibrary\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ACER\source\repos\NetheusLibrary\NetheusLibrary\NetheusLibrary\obj\Debug\netstandard2.0\NetheusLibrary.dll
+C:\Users\ACER\source\repos\NetheusLibrary\NetheusLibrary\NetheusLibrary\obj\Debug\netstandard2.0\ref\NetheusLibrary.dll
+C:\Users\ACER\source\repos\NetheusLibrary\NetheusLibrary\NetheusLibrary\obj\Debug\netstandard2.0\NetheusLibrary.pdb
+C:\Users\ACER\source\repos\NetheusLibrary\NetheusLibrary\NetheusLibrary\obj\Debug\netstandard2.0\NetheusLibrary.csprojAssemblyReference.cache

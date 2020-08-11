@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" x:Name="Lib"
+             xmlns:effects="clr-namespace:NetheusLibrary.Effects"
+             x:Class="NetheusLibrary.Views.LibraryView">
+    <ContentPage.Content>
+        <Grid>
+            <Grid RowSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height=".08*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid BackgroundColor="White" IsVisible="{Binding HeaderVisibility,Mode=TwoWay}">
+                    <Label Text="Photos" Margin="10,5,0,0" TextColor="Gray" FontAttributes="Bold" FontSize="22" HorizontalTextAlignment="Start" HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <Image Source="plus.png" Margin="0,12,10,12" Aspect="AspectFit"  VerticalOptions="Center" HorizontalOptions="End">
+
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding AddClicked}" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Grid>
+                <CollectionView   ItemsUpdatingScrollMode="KeepLastItemInView" x:Name="CollView"   BackgroundColor="WhiteSmoke" Grid.Row="1" ItemsSource="{Binding LibraryListCollection , Mode=TwoWay}"  
+                                 VerticalOptions="FillAndExpand"   
+                                 HorizontalOptions="FillAndExpand"   
+                                
+                                 EmptyView="No items found!"  
+                                 Margin="10">
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" VerticalItemSpacing="3" HorizontalItemSpacing="3" Span="3"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+
+
+                            <ImageButton   BackgroundColor="Transparent" Command="{Binding Source={x:Reference Lib}, Path=BindingContext.ImageClicked}" CommandParameter="{Binding ImageId}" effects:LongPressedEffect.CommandParameter="{Binding ImageId}"  effects:LongPressedEffect.Command="{Binding  Source={x:Reference Lib}, Path=BindingContext.ImageLongPressed}" Source="{Binding imagePath,Mode=TwoWay}" Aspect="AspectFill" >
+
+                                <ImageButton.Effects>
+                                    <effects:LongPressedEffect />
+                                </ImageButton.Effects>
+
+
+                            </ImageButton>
+
+
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                <ActivityIndicator Grid.Row="1" IsRunning="True" IsEnabled="True" IsVisible="{Binding IsBusy,Mode=TwoWay}" Color="Blue" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center" VerticalOptions="Center"/>
+            </Grid>
+            <Grid BackgroundColor="Black" Opacity=".6" IsVisible="{Binding FooterVisibility,Mode=TwoWay}" >
+                
+            </Grid>
+            <Grid HeightRequest="60" VerticalOptions="End" IsVisible="{Binding FooterVisibility,Mode=TwoWay}" BackgroundColor="White" >
+                <Label Text="Cancel" Margin="10,5,0,0" TextColor="Gray" FontAttributes="Bold" FontSize="22" HorizontalTextAlignment="Start" HorizontalOptions="Start" VerticalOptions="Center">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding Cancel}"/>
+                    </Label.GestureRecognizers>
+                </Label>
+                <Image Source="delete.png" Margin="0,12,10,12" Aspect="AspectFit"  VerticalOptions="Center" HorizontalOptions="End">
+
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding DeleteCommand}" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </Grid>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
