@@ -13,6 +13,11 @@ namespace NetheusLibrary.Helper
             if (OnUpdateRecieved != null)
                 OnUpdateRecieved(_msg);
         }
-
+        public static event Action<string> OnFadeAnmiationRecieved;
+        public static void FadeAnmiation(string _msg)
+        {
+            if (OnFadeAnmiationRecieved != null)
+                OnFadeAnmiationRecieved(_msg);
+        }
     }
 }

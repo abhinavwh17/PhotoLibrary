@@ -16,6 +16,7 @@ namespace NetheusLibrary.Model
             set { SetProperty(ref _LibraryListCollection, value); }
         }
         public DelegateCommand DeleteCommand { get; set; }
+        public DelegateCommand ImageTabbed { get; set; }
         private int _Index;
         public int Index
         {

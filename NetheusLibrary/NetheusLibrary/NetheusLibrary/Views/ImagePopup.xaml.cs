@@ -22,8 +22,21 @@ namespace NetheusLibrary.Views
             InitializeComponent();
             _LibraryPopUpViewModel = new LibraryPopUpViewModel(index);
             this.BindingContext = _LibraryPopUpViewModel;
+         
 
+        }
 
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            if (Foooter.Opacity < 1) { 
+           await Foooter.FadeTo(1, 500);
+            await Task.Delay(5000);
+            await Foooter.FadeTo(0, 500);
+            }
+            else if(Foooter.Opacity == 1)
+            {
+                await Foooter.FadeTo(0, 500);
+            }
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER\\source\\repos\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.csproj": {}
+    "E:\\Proj\\PhotoLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER\\source\\repos\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.csproj": {
+    "E:\\Proj\\PhotoLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\source\\repos\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.csproj",
+        "projectUniqueName": "E:\\Proj\\PhotoLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.csproj",
         "projectName": "NetheusLibrary",
-        "projectPath": "C:\\Users\\ACER\\source\\repos\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.csproj",
+        "projectPath": "E:\\Proj\\PhotoLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\source\\repos\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary\\obj\\",
+        "outputPath": "E:\\Proj\\PhotoLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -67,6 +67,14 @@
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.5.3.2, )"
+            },
+            "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.FFImageLoading.Transformations": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
             },
             "Xamarin.Forms": {
               "target": "Package",

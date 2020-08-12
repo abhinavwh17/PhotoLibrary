@@ -21,8 +21,14 @@ namespace NetheusLibrary.ViewModel
                 var DesrilizedData = JsonConvert.DeserializeObject<ObservableCollection<LibraryList>>(LoaclListData);
                 LibraryListCollection = DesrilizedData;
                 DeleteCommand = new Commands.DelegateCommand(DeleteCommand_Function);
+                ImageTabbed = new Commands.DelegateCommand(ImageTabbed_function);
             }
            
+        }
+
+        private void ImageTabbed_function()
+        {
+          
         }
 
         private void DeleteCommand_Function()

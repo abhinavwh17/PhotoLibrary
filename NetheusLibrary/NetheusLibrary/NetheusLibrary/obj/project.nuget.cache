@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HYYAxDbrXnllE68jOmVsZ8HvF2SDgh0EYgZ9JVfFQ3tSHKBD9U9dMjhQHCe4AM2WQMhbhzAayFdlxcdfXkpMxw==",
+  "dgSpecHash": "wBgETQsMdGFpcizCnd4H214G9NV4eyItF25RSEhHBqZo1N327tZbHfjimdL9C6yFLbx2pj3ZcZ1OOMsT5gXPkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER\\source\\repos\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.csproj",
+  "projectFilePath": "E:\\Proj\\PhotoLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
@@ -12,6 +12,9 @@
     "C:\\Users\\ACER\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\xam.plugins.settings\\3.1.1\\xam.plugins.settings.3.1.1.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\xamarin.ffimageloading.transformations\\2.4.11.982\\xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\xamarin.forms\\4.8.0.1269\\xamarin.forms.4.8.0.1269.nupkg.sha512"
   ],
   "logs": []

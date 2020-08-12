@@ -3,6 +3,11 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "NetheusLibrary.Android.dll" comes first in this list. */
 		"NetheusLibrary.Android.dll",
+		"FFImageLoading.dll",
+		"FFImageLoading.Forms.dll",
+		"FFImageLoading.Forms.Platform.dll",
+		"FFImageLoading.Platform.dll",
+		"FFImageLoading.Transformations.dll",
 		"FormsViewGroup.dll",
 		"NetheusLibrary.dll",
 		"Newtonsoft.Json.dll",

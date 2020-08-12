@@ -1,14 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "1hbWQRA9tWuTXXbqocPxoEj21MDaJ+X64qplbKJE2rIcMLBAHdcJqBQUT0B64fWU+eNQOp8HEgkXWoulpv8CbQ==",
+  "dgSpecHash": "cPDRuUpHVcBGElqNRbtASVoSzhovFk0fdHQKJf8xrdMRwNGSyQLAuzNkCTj3AH/GwC2Ce+IJdt8PHawcVsHwiQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER\\source\\repos\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.iOS\\NetheusLibrary.iOS.csproj",
+  "projectFilePath": "E:\\Proj\\PhotoLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.iOS\\NetheusLibrary.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\rg.plugins.popup\\2.0.0.3\\rg.plugins.popup.2.0.0.3.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\webp.touch\\1.0.8\\webp.touch.1.0.8.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\xam.plugins.settings\\3.1.1\\xam.plugins.settings.3.1.1.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\xamarin.ffimageloading.transformations\\2.4.11.982\\xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\xamarin.forms\\4.8.0.1269\\xamarin.forms.4.8.0.1269.nupkg.sha512"
   ],
   "logs": []

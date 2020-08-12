@@ -103,8 +103,8 @@ namespace NetheusLibrary.ViewModel
             if (status == PermissionStatus.Granted)
             {
               var file =await  CrossMedia.Current.PickPhotosAsync();
+                
 
-              
                 if (file != null)
                 {
                     foreach (var item in file)
