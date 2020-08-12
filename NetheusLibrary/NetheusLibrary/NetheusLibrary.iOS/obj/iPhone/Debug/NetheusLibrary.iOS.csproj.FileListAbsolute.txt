@@ -74,3 +74,5 @@ E:\Proj\PhotoLibrary\NetheusLibrary\NetheusLibrary\NetheusLibrary.iOS\obj\iPhone
 E:\Proj\PhotoLibrary\NetheusLibrary\NetheusLibrary\NetheusLibrary.iOS\obj\iPhone\Debug\NetheusLibrary.iOS.csproj.CopyComplete
 E:\Proj\PhotoLibrary\NetheusLibrary\NetheusLibrary\NetheusLibrary.iOS\obj\iPhone\Debug\NetheusLibrary.iOS.exe
 E:\Proj\PhotoLibrary\NetheusLibrary\NetheusLibrary\NetheusLibrary.iOS\obj\iPhone\Debug\NetheusLibrary.iOS.pdb
+E:\Proj\PhotoLibrary\NetheusLibrary\NetheusLibrary\NetheusLibrary.iOS\bin\iPhone\Debug\FFImageLoading.Transformations.dll
+E:\Proj\PhotoLibrary\NetheusLibrary\NetheusLibrary\NetheusLibrary.iOS\bin\iPhone\Debug\FFImageLoading.Transformations.pdb

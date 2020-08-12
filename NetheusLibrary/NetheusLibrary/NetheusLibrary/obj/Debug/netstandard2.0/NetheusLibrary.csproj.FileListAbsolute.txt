@@ -11,6 +11,5 @@ E:\Proj\PhotoLibrary\NetheusLibrary\NetheusLibrary\NetheusLibrary\obj\Debug\nets
 E:\Proj\PhotoLibrary\NetheusLibrary\NetheusLibrary\NetheusLibrary\obj\Debug\netstandard2.0\NetheusLibrary.dll
 E:\Proj\PhotoLibrary\NetheusLibrary\NetheusLibrary\NetheusLibrary\obj\Debug\netstandard2.0\ref\NetheusLibrary.dll
 E:\Proj\PhotoLibrary\NetheusLibrary\NetheusLibrary\NetheusLibrary\obj\Debug\netstandard2.0\NetheusLibrary.pdb
-E:\Proj\PhotoLibrary\NetheusLibrary\NetheusLibrary\NetheusLibrary\obj\Debug\netstandard2.0\NetheusLibrary.csprojAssemblyReference.cache
 E:\Proj\PhotoLibrary\NetheusLibrary\NetheusLibrary\NetheusLibrary\obj\Debug\netstandard2.0\NetheusLibrary.csproj.CoreCompileInputs.cache
 E:\Proj\PhotoLibrary\NetheusLibrary\NetheusLibrary\NetheusLibrary\obj\Debug\netstandard2.0\XamlC.stamp

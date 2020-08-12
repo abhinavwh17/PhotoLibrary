@@ -14,14 +14,7 @@
             
         </Grid>
         <Grid HorizontalOptions="Center" VerticalOptions="Center">
-                <Grid HeightRequest="70" VerticalOptions="Start" x:Name="Foooter" Opacity="0"  BackgroundColor="White">
-                    <Image  Source="delete.png" Margin="0,12,10,12" Aspect="AspectFit"  VerticalOptions="Center" HorizontalOptions="End">
-
-                        <Image.GestureRecognizers>
-                            <TapGestureRecognizer Command="{Binding DeleteCommand}" />
-                        </Image.GestureRecognizers>
-                    </Image>
-                </Grid>
+               
                 <CarouselView IsScrollAnimated="False" Position="{Binding Index,Mode=TwoWay}"  ItemsSource="{Binding LibraryListCollection}"  >
                 <CarouselView.ItemTemplate>
                     <DataTemplate>

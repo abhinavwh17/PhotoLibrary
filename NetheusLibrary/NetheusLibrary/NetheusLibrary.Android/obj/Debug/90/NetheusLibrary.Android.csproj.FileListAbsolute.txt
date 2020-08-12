@@ -545,3 +545,4 @@ E:\Proj\PhotoLibrary\NetheusLibrary\NetheusLibrary\NetheusLibrary.Android\obj\De
 E:\Proj\PhotoLibrary\NetheusLibrary\NetheusLibrary\NetheusLibrary.Android\obj\Debug\90\android\assets\FFImageLoading.Transformations.dll
 E:\Proj\PhotoLibrary\NetheusLibrary\NetheusLibrary\NetheusLibrary.Android\obj\Debug\90\android\assets\FFImageLoading.Transformations.pdb
 E:\Proj\PhotoLibrary\NetheusLibrary\NetheusLibrary\NetheusLibrary.Android\obj\Debug\90\res\drawable\loadinggiphy.gif
+E:\Proj\PhotoLibrary\NetheusLibrary\NetheusLibrary\NetheusLibrary.Android\obj\Debug\90\res\drawable\back.png
