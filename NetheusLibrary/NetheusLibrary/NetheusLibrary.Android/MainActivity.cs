@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.IO;
 using Android.Content;
 using Rg.Plugins.Popup.Services;
+using Xamarin.Forms;
 
 namespace NetheusLibrary.Droid
 {
@@ -25,8 +26,11 @@ namespace NetheusLibrary.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            FFImageLoading.Forms.Platform.CachedImageRenderer.Init(true);
             LoadApplication(new App());
+         
             Rg.Plugins.Popup.Popup.Init(this , savedInstanceState);
+           
         }
         public async override void OnBackPressed()
         {

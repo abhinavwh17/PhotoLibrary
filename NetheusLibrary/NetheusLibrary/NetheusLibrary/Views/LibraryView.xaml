@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" x:Name="Lib"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              xmlns:effects="clr-namespace:NetheusLibrary.Effects"
              x:Class="NetheusLibrary.Views.LibraryView">
     <ContentPage.Content>
@@ -30,20 +31,34 @@
                                  Margin="10">
                     <CollectionView.ItemsLayout>
                         <GridItemsLayout Orientation="Vertical" VerticalItemSpacing="3" HorizontalItemSpacing="3" Span="3"/>
-                    </CollectionView.ItemsLayout>
+                    </CollectionView.ItemsLayout>                                                                                                
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
+                            <Grid>
+                            <ffimageloading:CachedImage   FadeAnimationEnabled="True" 
+                             
+CacheDuration= "50"
+RetryCount= "3"
+RetryDelay= "600"
+DownsampleToViewSize = "true"
+                              Source="{Binding imagePath,Mode=TwoWay}"
+                                LoadingPlaceholder= "plus.png"
+ErrorPlaceholder= "plus.png"
+                                    >
+                              
+
+                            </ffimageloading:CachedImage>
 
 
-                            <ImageButton   BackgroundColor="Transparent" Command="{Binding Source={x:Reference Lib}, Path=BindingContext.ImageClicked}" CommandParameter="{Binding ImageId}" effects:LongPressedEffect.CommandParameter="{Binding ImageId}"  effects:LongPressedEffect.Command="{Binding  Source={x:Reference Lib}, Path=BindingContext.ImageLongPressed}" Source="{Binding imagePath,Mode=TwoWay}" Aspect="AspectFill" >
+                            <ImageButton    BackgroundColor="Transparent" Command="{Binding Source={x:Reference Lib}, Path=BindingContext.ImageClicked}" CommandParameter="{Binding ImageId}" effects:LongPressedEffect.CommandParameter="{Binding ImageId}"  effects:LongPressedEffect.Command="{Binding  Source={x:Reference Lib}, Path=BindingContext.ImageLongPressed}">
 
-                                <ImageButton.Effects>
-                                    <effects:LongPressedEffect />
-                                </ImageButton.Effects>
+                                    <ImageButton.Effects>
+                                        <effects:LongPressedEffect />
+                                    </ImageButton.Effects>
 
 
-                            </ImageButton>
-
+                                </ImageButton>
+                            </Grid>
 
                         </DataTemplate>
                     </CollectionView.ItemTemplate>

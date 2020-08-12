@@ -2,8 +2,11 @@
 <pages:PopupPage  xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup" xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+                    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" CloseWhenBackgroundIsClicked="True"  
+                  x:Name="Pop"
+                     xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
              x:Class="NetheusLibrary.Views.ImagePopup">
     <pages:PopupPage.Content>
         <Grid>
@@ -11,20 +14,40 @@
             
         </Grid>
         <Grid HorizontalOptions="Center" VerticalOptions="Center">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height=".08*"/>
-            </Grid.RowDefinitions>
+                <Grid HeightRequest="70" VerticalOptions="Start" x:Name="Foooter" Opacity="0"  BackgroundColor="White">
+                    <Image  Source="delete.png" Margin="0,12,10,12" Aspect="AspectFit"  VerticalOptions="Center" HorizontalOptions="End">
+
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding DeleteCommand}" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Grid>
                 <CarouselView IsScrollAnimated="False" Position="{Binding Index,Mode=TwoWay}"  ItemsSource="{Binding LibraryListCollection}"  >
                 <CarouselView.ItemTemplate>
                     <DataTemplate>
-                            <Image IsVisible="{Binding ImageIsVisible,Mode=TwoWay}" Source="{Binding imagePath,Mode=TwoWay}" Aspect="AspectFit" />
+                            <ffimageloading:CachedImage  IsVisible="{Binding ImageIsVisible,Mode=TwoWay}" FadeAnimationEnabled="True" Aspect="AspectFit"
+                        LoadingPriority="High"       
+CacheDuration= "50"
+RetryCount= "3"
+RetryDelay= "600"
+DownsampleToViewSize = "true"
+                              Source="{Binding imagePath,Mode=TwoWay}"
+                                LoadingPlaceholder= "Loadinggiphy.gif"
+ErrorPlaceholder= "Loadinggiphy.gif"
+                                    >
+
+                                <ffimageloading:CachedImage.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                                </ffimageloading:CachedImage.GestureRecognizers>
+                            </ffimageloading:CachedImage>
+
+                            <!--<Image IsVisible="{Binding ImageIsVisible,Mode=TwoWay}" Source="{Binding imagePath,Mode=TwoWay}" Aspect="AspectFit" />-->
                     </DataTemplate>
                 </CarouselView.ItemTemplate>
 
-            </CarouselView>
-            <Grid Grid.Row="1" BackgroundColor="White">
-                    <Image Source="delete.png" Margin="0,12,10,12" Aspect="AspectFit"  VerticalOptions="Center" HorizontalOptions="End">
+            </CarouselView> 
+            <Grid HeightRequest="70" VerticalOptions="End" x:Name="Foooter" Opacity="0"  BackgroundColor="White">
+                    <Image  Source="delete.png" Margin="0,12,10,12" Aspect="AspectFit"  VerticalOptions="Center" HorizontalOptions="End">
 
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Command="{Binding DeleteCommand}" />
