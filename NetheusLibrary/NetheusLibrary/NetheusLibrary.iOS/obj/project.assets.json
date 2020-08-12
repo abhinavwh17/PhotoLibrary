@@ -1377,11 +1377,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ACER\\source\\repos\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.iOS\\NetheusLibrary.iOS.csproj",
+      "projectUniqueName": "E:\\Proj\\PhotoLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.iOS\\NetheusLibrary.iOS.csproj",
       "projectName": "NetheusLibrary.iOS",
-      "projectPath": "C:\\Users\\ACER\\source\\repos\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.iOS\\NetheusLibrary.iOS.csproj",
+      "projectPath": "E:\\Proj\\PhotoLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.iOS\\NetheusLibrary.iOS.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ACER\\source\\repos\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.iOS\\obj\\",
+      "outputPath": "E:\\Proj\\PhotoLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1402,8 +1402,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\ACER\\source\\repos\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.csproj": {
-              "projectPath": "C:\\Users\\ACER\\source\\repos\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.csproj"
+            "E:\\Proj\\PhotoLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.csproj": {
+              "projectPath": "E:\\Proj\\PhotoLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary\\NetheusLibrary.csproj"
             }
           }
         }
